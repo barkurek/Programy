@@ -1,0 +1,19 @@
+function century(year) {
+  // Finish this :)
+  var oryginalcentury = ((year-1)/100);
+  
+  var roundedcentury = Math.round(oryginalcentury);
+  
+  if ((roundedcentury === oryginalcentury) || (roundedcentury < oryginalcentury))
+    {
+     var temporarycentury = roundedcentury;
+    }
+  else
+    {
+      temporarycentury = (roundedcentury -1);
+    }
+
+   var readycentury = temporarycentury + 1;
+  
+  return readycentury;
+}
