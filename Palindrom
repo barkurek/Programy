@@ -1,0 +1,14 @@
+function isPalindrome(line) {
+var reversed ;
+var oryginal = line;
+
+oryginal = "" + oryginal;
+reversed = oryginal.split('').reverse().join('');
+
+if (oryginal === reversed)
+return true;
+else 
+return false;
+
+
+}
